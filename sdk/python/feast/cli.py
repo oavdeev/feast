@@ -337,6 +337,7 @@ def project_archive(name: str):
     feast_client.archive_project(name)
 
 
+
 @project.command(name="list")
 def project_list():
     """
